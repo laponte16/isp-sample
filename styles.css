@@ -18,18 +18,15 @@ body{
 }
 .navTop{
     background-color: beige;
-
-    flex-grow: 1;
+    height: 20%;
 }
 .navMid{
     background-color: darkgoldenrod;
-
-    flex-grow: 2;
+    height: 55%;
 }
 .navBot{
     background-color: darksalmon;
-
-    flex-grow: 1;
+    height: 25%;
 }
 /*ESTILO DEL FOOTER*/
 .footer{
