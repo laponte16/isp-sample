@@ -3,12 +3,35 @@ body{
     background-color: black;
     z-index: 2;
     width: 100vw;
-}
 
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+}
+/*ESTILO DEL NAV*/
 .nav{
     background-color: blueviolet;
-}
 
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+}
+.navTop{
+    background-color: beige;
+
+    flex-grow: 1;
+}
+.navMid{
+    background-color: darkgoldenrod;
+
+    flex-grow: 2;
+}
+.navBot{
+    background-color: darksalmon;
+
+    flex-grow: 1;
+}
+/*ESTILO DEL FOOTER*/
 .footer{
     background-color: brown;
 }
