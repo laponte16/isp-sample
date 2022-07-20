@@ -9,7 +9,7 @@ body{
     justify-content: space-evenly;
 }
 /*ESTILO DEL NAV*/
-.nav{
+nav{
     background-color: blueviolet;
 
     display: flex;
