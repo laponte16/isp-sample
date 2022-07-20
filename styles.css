@@ -14,7 +14,7 @@ body{
 
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .navTop{
     background-color: beige;
