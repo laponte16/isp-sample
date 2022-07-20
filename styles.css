@@ -14,19 +14,22 @@ nav{
 
     display: flex;
     flex-flow: column nowrap;
-
+    justify-content: space-evenly;
     height: 200px;
 }
 .navTop{
     background-color: beige;
+    width: 100%;
     height: 20%;
 }
 .navMid{
     background-color: darkgoldenrod;
+    width: 100%;
     height: 55%;
 }
 .navBot{
     background-color: darksalmon;
+    width: 100%;
     height: 25%;
 }
 /*ESTILO DEL FOOTER*/
