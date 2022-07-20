@@ -4,3 +4,11 @@ body{
     z-index: 2;
     width: 100vw;
 }
+
+.nav{
+    background-color: blueviolet;
+}
+
+.footer{
+    background-color: brown;
+}
