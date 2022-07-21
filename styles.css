@@ -21,6 +21,7 @@ nav{
 
     display: flex;
     flex-flow: column nowrap;
+    justify-content: space-between;
     width: 100%;
     height: 200px;
     margin-top: 0%;
@@ -38,18 +39,20 @@ nav{
 }
 .navTop1{
     width: 80%;
+    height: 100%;
 }
 .navTop2{
     width: 10%;
+    height: 100%;
 
     border-left: solid 1px #476CFF;
     border-right: solid 1px #476CFF;
     padding-left: 3px;
     padding-right: 3px;
-    align-items: flex-end;
 }
 .navTop3{
     width: 10%;
+    height: 100%;
 }
 .navMid{
     background-color: #10497E;
