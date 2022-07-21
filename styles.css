@@ -34,6 +34,7 @@ nav{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
+    text-align: center;
 }
 .navMid{
     background-color: #10497E;
@@ -45,6 +46,7 @@ nav{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
+    text-align: center;
 }
 .navBot{
     background-color: #476CFF;
@@ -54,6 +56,7 @@ nav{
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
+    text-align: center;
 }
 /*ESTILO DEL FOOTER*/
 .footer{
