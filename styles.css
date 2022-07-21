@@ -21,7 +21,6 @@ nav{
 
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-evenly;
     width: 100%;
     height: 200px;
     margin-top: 0%;
@@ -37,9 +36,11 @@ nav{
     text-align: center;
 }
 .navTop1{
-
+    width: 80%;
 }
 .navTop2{
+    width: 10%;
+
     border-left: solid 1px #476CFF;
     border-right: solid 1px #476CFF;
     padding-left: 3px;
@@ -47,6 +48,8 @@ nav{
     align-items: flex-end;
 }
 .navTop3{
+    width: 10%;
+
     margin-top: 5%;
     margin-right: 2%;
 }
