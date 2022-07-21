@@ -11,7 +11,7 @@ body{
     flex-flow: column nowrap;
     justify-content: space-evenly;
 
-    width: 98vw;
+    width: 100%;
 }
 /*ESTILO DEL NAV*/
 nav{
