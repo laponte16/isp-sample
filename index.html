@@ -13,9 +13,71 @@
         <div>
             <?php include "en/nav-en.html"; ?>
         </div>
-        <div>
-    
+        
+        <div> <!--Slider-->
+            <div id="main-carousel" class="carousel slide carousel-fade" data-md-ride="carousel">
+                <!--Indicadores-->
+                <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-mdb-target="#main-carousel"
+                      data-mdb-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="Slide 1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-mdb-target="#main-carousel"
+                      data-mdb-slide-to="1"
+                      aria-label="Slide 2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-mdb-target="#main-carousel"
+                      data-mdb-slide-to="2"
+                      aria-label="Slide 3"
+                    ></button>
+                </div>
+                  <!--Slide interno-->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="#" class="d-block w-100" alt="Sunset Over the City"/>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First ñame</h5>
+                            <p>This and that and the other</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                    <img src="#" class="d-block w-100" alt="Canyon at Nigh"/>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second ñame</h5>
+                            <p>This is not fibex</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                    <img src="#" class="d-block w-100" alt="Cliff Above a Stormy Sea"/>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third ñame</h5>
+                            <p>No imagination for this one</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Controles -->
+                <button class="carousel-control-prev" type="button" data-mdb-target="#main-carousel" data-mdb-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-mdb-target="#main-carousel" data-mdb-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
+
+
         <div>
             <?php include "en/footer-en.html"; ?>
         </div>
