@@ -88,6 +88,9 @@ nav{
     text-decoration: none;
     color: white;
 }
+.navMid2 a:hover{
+    color: #22BFAC;
+}
 .navMid3{
     width: 15%;
 
