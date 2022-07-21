@@ -10,6 +10,8 @@ body{
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-evenly;
+
+    width: 98vw;
 }
 /*ESTILO DEL NAV*/
 nav{
