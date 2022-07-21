@@ -34,8 +34,8 @@ nav{
 
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
-    text-align: center;
+    justify-content: normal;
+    text-align: justify;
 }
 .navTop1{
     width: 80%;
