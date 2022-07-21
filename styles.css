@@ -38,6 +38,61 @@ nav{
     height: 25%;
 }
 /*ESTILO DEL FOOTER*/
-.footer{
-    background-color: brown;
+.container-foot{
+    font-size: medium;
+    padding: 1% 1% 0 1%;
+    background: #476CFF;
+}
+
+.container-foot a{
+    text-decoration: none;
+}
+
+.row .Name{
+    font-size: large;
+}
+
+.container-foot ul{
+    list-style: none;
+    overflow: hidden;
+}
+
+.container-foot li{
+    float: left;
+    margin-right: 2vw;
+}
+
+.container-foot2{
+    padding: 3% 0 1% 1%;
+    background: #10497E;
+}
+
+.container-foot2 .logo{
+    position: relative;
+    margin-top: -2%;
+}
+
+.container-foot2 a{
+    text-decoration: none;
+}
+.container-foot2 ul{
+    list-style: none;
+    
+}
+
+.container-foot2 .links li{
+    float: left;
+    margin-right: 2vw;
+}
+
+
+.container-foot2 .brands li{
+    float: left;
+    margin-right: 2vw;
+    display: flex;
+    position: relative;
+}
+
+.container-foot2 .brands li:hover{
+    color: #22BFAC;
 }
