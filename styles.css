@@ -39,11 +39,11 @@ nav{
     align-items: stretch;
 }
 .navTop1{
-    flex-grow: 3;
+    width: 70%;
     background-color:aqua;
 }
 .navTop2{
-    flex-grow: 1;
+    width: 15%;
 
     background-color: antiquewhite;
 
@@ -53,7 +53,7 @@ nav{
     padding-right: 3px;
 }
 .navTop3{
-    flex-grow: 1;
+    width: 15%;
     background-color: brown;
 }
 .navMid{
