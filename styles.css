@@ -10,7 +10,7 @@ body{
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-evenly;
-    margin-left: 0.5%;
+    margin-left: 0.25%;
     width: 100%;
 }
 /*ESTILO DEL NAV*/
