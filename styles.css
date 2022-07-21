@@ -39,11 +39,13 @@ nav{
     align-items: stretch;
 }
 .navTop1{
-    width: 75%;
+    width: 70%;
 }
 .navTop2{
-    width: 15%;
-    
+    width: 20%;
+
+    margin-right: 3%;
+
     border-left: solid 1px #476CFF;
     border-right: solid 1px #476CFF;
     padding-left: 3px;
@@ -51,7 +53,6 @@ nav{
 }
 .navTop3{
     width: 10%;
-    background-color: brown;
 }
 .navMid{
     background-color: #10497E;
