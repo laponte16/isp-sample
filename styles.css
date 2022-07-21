@@ -39,7 +39,8 @@ nav{
 .navTop2{
     border-left: solid 1px #476CFF;
     border-right: solid 1px #476CFF;
-
+    padding-left: 3px;
+    padding-right: 3px;
     align-items: flex-end;
 }
 .navMid{
