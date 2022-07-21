@@ -40,9 +40,12 @@ nav{
 }
 .navTop1{
     flex-grow: 3;
+    background-color:aqua;
 }
 .navTop2{
     flex-grow: 1;
+
+    background-color: antiquewhite;
 
     border-left: solid 1px #476CFF;
     border-right: solid 1px #476CFF;
@@ -51,6 +54,7 @@ nav{
 }
 .navTop3{
     flex-grow: 1;
+    background-color: brown;
 }
 .navMid{
     background-color: #10497E;
