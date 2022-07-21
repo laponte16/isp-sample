@@ -2,14 +2,18 @@ body{
     margin: 0;
     background-color: white;
     z-index: 2;
-    width: 100vw;
+    width: 98vw;
 
     
 }
 .mainDiv{
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 0%;
+    margin-top: 0%;
+    margin-left: 0.50%;
+    width: 100%;
 }
 /*ESTILO DEL NAV*/
 nav{
@@ -17,25 +21,84 @@ nav{
 
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 100%;
-    height: 200px;
+    height: 150px;
     margin-top: 0%;
 }
 .navTop{
     background-color: #10497E;
     width: 100%;
-    height: 20%;
+    height: 30%;
+    padding: 3px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    text-align: center;
+    align-items: stretch;
+}
+.navTop1{
+    width: 50%;
+}
+.navTop2{
+    width: 15%;
+
+    margin-right: 3%;
+
+    border-left: solid 1px #476CFF;
+    border-right: solid 1px #476CFF;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.navTop3{
+    width: 15%;
 }
 .navMid{
     background-color: #10497E;
     width: 100%;
-    height: 55%;
+    height: 40%;
+
+    border-top: solid 1px #476CFF;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.navMid1{
+    width: 15%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.navMid2{
+    width: 70%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.navMid3{
+    width: 15%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    text-align: center;
 }
 .navBot{
     background-color: #476CFF;
     width: 100%;
-    height: 25%;
+    height: 30%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    text-align: center;
 }
 /*ESTILO DEL FOOTER*/
 .container-foot{
