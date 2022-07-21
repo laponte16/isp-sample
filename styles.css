@@ -135,6 +135,10 @@ nav{
     margin-top: -2%;
 }
 
+.container-foot2 .logo:hover{
+    transform: scale(1.1);
+}
+
 .container-foot2 a{
     text-decoration: none;
 }
