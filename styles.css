@@ -39,14 +39,11 @@ nav{
     align-items: stretch;
 }
 .navTop1{
-    width: 80%;
-    background-color:aqua;
+    width: 75%;
 }
 .navTop2{
-    width: 10%;
-
-    background-color: antiquewhite;
-
+    width: 15%;
+    
     border-left: solid 1px #476CFF;
     border-right: solid 1px #476CFF;
     padding-left: 3px;
