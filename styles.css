@@ -66,6 +66,24 @@ nav{
     justify-content: space-around;
     text-align: center;
 }
+.navMid1{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.navMid2{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.navMid3{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    text-align: center;
+}
 .navBot{
     background-color: #476CFF;
     width: 100%;
