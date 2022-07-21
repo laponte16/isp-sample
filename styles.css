@@ -42,8 +42,9 @@ nav{
     height: 100%;
 }
 .navTop2{
-
     height: 100%;
+
+    margin-left: 15%;
 
     border-left: solid 1px #476CFF;
     border-right: solid 1px #476CFF;
