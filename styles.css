@@ -35,15 +35,13 @@ nav{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    text-align: justify;
+    text-align: center;
     align-items: stretch;
 }
 .navTop1{
-    width: 60%;
     flex-grow: 3;
 }
 .navTop2{
-    width: 20%;
     flex-grow: 1;
 
     border-left: solid 1px #476CFF;
@@ -52,7 +50,6 @@ nav{
     padding-right: 3px;
 }
 .navTop3{
-    width: 20%;
     flex-grow: 1;
 }
 .navMid{
