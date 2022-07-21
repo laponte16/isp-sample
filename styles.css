@@ -34,14 +34,14 @@ nav{
 
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
     text-align: justify;
 }
 .navTop1{
-
+    width: 80%;
     height: 100%;
 }
 .navTop2{
+    width: 10%;
     height: 100%;
 
     margin-left: 15%;
@@ -52,7 +52,7 @@ nav{
     padding-right: 3px;
 }
 .navTop3{
-
+    width: 10%;
     height: 100%;
 }
 .navMid{
