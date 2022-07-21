@@ -37,14 +37,10 @@ nav{
     text-align: justify;
 }
 .navTop1{
-    width: 80%;
-    height: 100%;
+    width: 60%;
 }
 .navTop2{
-    width: 10%;
-    height: 100%;
-
-    margin-left: 15%;
+    width: 20%;
 
     border-left: solid 1px #476CFF;
     border-right: solid 1px #476CFF;
@@ -52,8 +48,7 @@ nav{
     padding-right: 3px;
 }
 .navTop3{
-    width: 10%;
-    height: 100%;
+    width: 20%;
 }
 .navMid{
     background-color: #10497E;
