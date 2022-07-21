@@ -39,9 +39,11 @@ nav{
 }
 .navTop1{
     width: 60%;
+    flex-grow: 3;
 }
 .navTop2{
     width: 20%;
+    flex-grow: 1;
 
     border-left: solid 1px #476CFF;
     border-right: solid 1px #476CFF;
@@ -50,6 +52,7 @@ nav{
 }
 .navTop3{
     width: 20%;
+    flex-grow: 1;
 }
 .navMid{
     background-color: #10497E;
