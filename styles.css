@@ -2,7 +2,7 @@ body{
     margin: 0;
     background-color: white;
     z-index: 2;
-    width: 98vw;
+    width: 96.5vw;
 
     
 }
@@ -12,7 +12,7 @@ body{
     justify-content: space-between;
     padding: 0%;
     margin-top: 0%;
-    margin-left: 0.50%;
+    margin-left: 0.850%;
     width: 100%;
 }
 /*ESTILO DEL NAV*/
@@ -302,6 +302,88 @@ nav{
     width: 100%;
     height: 450px;
     background-color: mediumseagreen;
+}
+/*ESTILOS DE SERVICE-HOME*/
+.homeTitulo1{
+    width: 100%;
+    height: 150px;
+    background-color: mediumseagreen;
+}
+.homeTitulo2{
+    width: 100%;
+    height: 450px;
+    background-color: gainsboro;
+}
+.homePlanes1{
+    width: 100%;
+    height: 150px;
+    background-color: firebrick;
+}
+.homePlanes2{
+    width: 100%;
+    height: 450px;
+    background-color: deeppink;
+}
+.homeAreas1{
+    width: 100%;
+    height: 150px;
+    background-color: darksalmon;
+}
+.homeAreas2{
+    width: 100%;
+    height: 450px;
+    background-color: goldenrod;
+}
+.homeAtencion1{
+    width: 100%;
+    height: 150px;
+    background-color: aqua;
+}
+.homeAtencion2{
+    width: 100%;
+    height: 450px;
+    background-color: darkkhaki;
+}
+/*ESTILOS DE SERVICE-ENTERPRISE*/
+.enterpriseTitulo1{
+    width: 100%;
+    height: 150px;
+    background-color: mediumseagreen;
+}
+.enterpriseTitulo2{
+    width: 100%;
+    height: 450px;
+    background-color: gainsboro;
+}
+.enterprisePlanes1{
+    width: 100%;
+    height: 150px;
+    background-color: firebrick;
+}
+.enterprisePlanes2{
+    width: 100%;
+    height: 450px;
+    background-color: deeppink;
+}
+.enterpriseAreas1{
+    width: 100%;
+    height: 150px;
+    background-color: darksalmon;
+}
+.enterpriseAreas2{
+    width: 100%;
+    height: 450px;
+    background-color: goldenrod;
+}
+.enterpriseAtencion1{
+    width: 100%;
+    height: 150px;
+    background-color: aqua;
+}
+.enterpriseAtencion2{
+    width: 100%;
+    height: 450px;
+    background-color: darkkhaki;
 }
 /*ESTILOS DEL ABOUT*/
 .aboutTitulo{
