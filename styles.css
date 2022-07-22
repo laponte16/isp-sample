@@ -139,21 +139,6 @@ nav{
     color: white;
 }
 
-/*SLIDER*/
-.carousel-item{
-    height: 32rem;
-    background: #476CFF;
-    color: white;
-    position: relative;
-}
-
-.container-slide{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding-bottom: 50px;
-}
 
 /*ESTILO DEL FOOTER*/
 .container-foot{
@@ -221,23 +206,62 @@ nav{
 /*ESTILOS DEL CONTENT*/
 .content{
     width: 100%;
-
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
 }
+
+/*SLIDER*/
+.carousel-item{
+    height: 32rem;
+    background: #476CFF;
+    color: white;
+    position: relative;
+}
+
+.container-slide{
+    position: absolute;
+    bottom: 0;
+    left: 10vw;
+    right: 1vw;
+    padding-bottom: 50px;
+    text-align: right;
+}
+
 /*ESTILOS DEL HOME*/
 .homeTope{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    background-color: black;
+    
 }
 .homeTope1{
     width: 50%;
     background-color: aqua;
+    clip-path: polygon(0% 0%, 100% 0%, 75% 100%, 0% 100%);  
 }
+
+.homeTope1 h1{
+    margin-top: 5vw;
+    margin-left: 1vw;
+    margin-right: 3vw;
+    color: white;
+    font-size: 8vw;
+}
+
+.homeTope1 h2{
+    margin-left: 1vw;
+    margin-right: 3vw;
+    color: white;
+    font-size: 5vw;
+}
+
 .homeTope2{
+    float: right;
     width: 50%;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+    
 }
 .homeSwitch1{
     width: 100%;
