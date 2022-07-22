@@ -210,3 +210,65 @@ nav{
     color: #22BFAC;
 }
 /*ESTILOS DEL CONTENT*/
+.content{
+    width: 100%;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+/*ESTILOS DEL ABOUT*/
+.aboutTitulo{
+    width: 100%;
+    height: 100px;
+
+    background-color: aqua;
+}
+.aboutQuienes{
+    width: 100%;
+    height: 200px;
+
+    background-color: blanchedalmond;
+}
+.aboutImagen{
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.aboutImagen1{
+    width: 50%;
+    height: 100%;
+    background-color: crimson;
+}
+.aboutImagen2{
+    width: 50%;
+    height: 100%;
+    background-color: darkslateblue;
+}
+.aboutDonde{
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.aboutDonde1{
+    width: 100%;
+    height: 50%;
+    background-color: darkred;
+}
+.aboutDonde2{
+    width: 100%;
+    height: 50%;
+    background-color: fuchsia;
+}
