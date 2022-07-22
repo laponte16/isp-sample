@@ -91,6 +91,9 @@ nav{
     justify-content: space-around;
     text-align: center;
 }
+.navMid1 img{
+    content: url("images/Logo isp.png");
+}
 .navMid2{
     width: 70%;
 
@@ -118,6 +121,9 @@ nav{
 .navMid3 p{
     font-size: medium;
     color: white;
+}
+.navMid3 img{
+    content: url("images/login.png");
 }
 .navBot{
     background-color: #476CFF;
