@@ -143,8 +143,17 @@ nav{
 .carousel-item{
     height: 32rem;
     background: #476CFF;
+    color: white;
+    position: relative;
 }
 
+.container-slide{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
 
 /*ESTILO DEL FOOTER*/
 .container-foot{
