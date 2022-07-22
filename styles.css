@@ -225,8 +225,6 @@ nav{
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
-    align-items: center;
-    text-align: center;
 }
 /*ESTILOS DEL ABOUT*/
 .aboutTitulo{
