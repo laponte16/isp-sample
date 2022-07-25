@@ -362,7 +362,7 @@ nav{
     -webkit-transition-property: box-shadow, transform;
     transition-property: box-shadow, transform;
 }
-.homePlanes2 div:hover, div:focus, div:active{
+.homePlanes2 div:hover, .homePlanes2 div:focus, .homePlanes2 div:active{
     box-shadow: 0 0 8px rgba(6, 6, 6, 0.5);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
