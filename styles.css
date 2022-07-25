@@ -281,12 +281,8 @@ nav{
     text-align: center;
 }
 
-.switchtime h4{
-    text-align: center;
-    color: #FFFFFF;
-}
+
 .switchtime p{
-    text-align: center;
     color: #FFFFFF;
 }
 .switchcost{
@@ -294,12 +290,8 @@ nav{
     display: inline-block;
     text-align: center;
 }
-.switchcost h4{
-    text-align: center;
-    color: #FFFFFF;
-}
+
 .switchcost p{
-    text-align: center;
     color: #FFFFFF;
 }
 
