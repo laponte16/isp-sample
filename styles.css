@@ -277,8 +277,8 @@ nav{
 
 .switchtime{
     width: 30%;
+    height: 450px;
     display: inline-block;
-    text-align: center;
 }
 
 
@@ -287,8 +287,8 @@ nav{
 }
 .switchcost{
     width: 30%;
+    height: 450px;
     display: inline-block;
-    text-align: center;
 }
 
 .switchcost p{
