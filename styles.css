@@ -269,12 +269,9 @@ nav{
     height: 150px;
     background-color: white;
 }
-.homeSwitch2{
+#homeSwitch2{
     width: 100%;
     height: 450px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
     background-color: #476CFF;
 }
 
