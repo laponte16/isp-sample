@@ -233,12 +233,12 @@ nav{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    background-color: black;
+    background-color: white;
     
 }
 .homeTope1{
     width: 50%;
-    background-color: aqua;
+    background-color: white;
     clip-path: polygon(0% 0%, 100% 0%, 75% 100%, 0% 100%);  
 }
 
@@ -246,14 +246,14 @@ nav{
     margin-top: 5vw;
     margin-left: 1vw;
     margin-right: 3vw;
-    color: white;
+    color: #10497E;
     font-size: 8vw;
 }
 
 .homeTope1 h2{
     margin-left: 1vw;
     margin-right: 3vw;
-    color: white;
+    color: black;
     font-size: 5vw;
 }
 
@@ -266,42 +266,42 @@ nav{
 .homeSwitch1{
     width: 100%;
     height: 150px;
-    background-color: blanchedalmond;
+    background-color: white;
 }
 .homeSwitch2{
     width: 100%;
     height: 450px;
-    background-color: darkkhaki;
+    background-color: #476CFF;
 }
 .homePriceLock1{
     width: 100%;
     height: 150px;
-    background-color: goldenrod;
+    background-color: white;
 }
 .homePriceLock2{
     width: 100%;
     height: 450px;
-    background-color: darksalmon;
+    background-color: white;
 }
 .homePromo1{
     width: 100%;
     height: 150px;
-    background-color: deeppink;
+    background-color: #22BFAC;
 }
 .homePromo2{
     width: 100%;
     height: 450px;
-    background-color: firebrick;
+    background-color: #22BFAC;
 }
 .homeFlex1{
     width: 100%;
     height: 150px;
-    background-color: gainsboro;
+    background-color: white;
 }
 .homeFlex2{
     width: 100%;
     height: 450px;
-    background-color: mediumseagreen;
+    background-color: white;
 }
 /*ESTILOS DE SERVICE-HOME*/
 .homeTitulo1{
