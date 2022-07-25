@@ -122,8 +122,8 @@ nav{
     font-size: medium;
     color: white;
 }
-.navMid3 img{
-    content: url("images/login.png");
+.navMid3 i{
+    background-color: #FFFFFF;
 }
 .navBot{
     background-color: #476CFF;
