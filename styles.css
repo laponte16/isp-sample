@@ -277,29 +277,21 @@ nav{
 
 .switchtime{
     width: 30%;
+    height: 450px;
     display: inline-block;
-    text-align: center;
 }
 
-.switchtime h4{
-    text-align: center;
-    color: #FFFFFF;
-}
+
 .switchtime p{
-    text-align: center;
     color: #FFFFFF;
 }
 .switchcost{
     width: 30%;
+    height: 450px;
     display: inline-block;
-    text-align: center;
 }
-.switchcost h4{
-    text-align: center;
-    color: #FFFFFF;
-}
+
 .switchcost p{
-    text-align: center;
     color: #FFFFFF;
 }
 
