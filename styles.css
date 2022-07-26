@@ -360,6 +360,15 @@ nav{
     height: 450px;
     background-color: #22BFAC;
 }
+
+.promlist{
+    width: 80%;
+}
+
+.promop{
+    width: 90%;
+}
+
 .homeFlex1{
     width: 100%;
     height: 150px;
