@@ -17,3 +17,4 @@ const observer = new IntersectionObserver(entries => {
   /*Aqui se elige quienes son los elementos a observar. En este caso, hay dos con el mismo nombre por simplicidad, tomados como un array. De lo contrario, se pudo usar querySelector solamente, el cual retorna el primer elemento con el nombre pedido*/
   observer.observe(document.querySelectorAll('.homeAreas2Text')[0]);
   observer.observe(document.querySelectorAll('.homeAreas2Text')[1]);
+
