@@ -493,8 +493,8 @@ nav{
   .homeAreas2TextA {
     -webkit-animation-name: hvr-wobble-top;
     animation-name: hvr-wobble-top;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+    -webkit-animation-duration: 1.2s;
+    animation-duration: 1.2s;
     -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
 
