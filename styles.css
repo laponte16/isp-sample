@@ -277,7 +277,7 @@ nav{
 
 .switchtime{
     width: 30%;
-    height: 450px;
+    height: 100%;
     display: inline-block;
 }
 
@@ -287,20 +287,36 @@ nav{
 }
 
 #switchline{
-    width: 0.3vw;
-    height: 350px;
+    width: 0.3%;
+    height: 90%;
     display: inline-block;
     background-color: white;
 }
 
 .switchcost{
     width: 30%;
-    height: 450px;
+    height: 100%;
     display: inline-block;
 }
 
 .switchcost p{
     color: #FFFFFF;
+}
+
+#sicon{
+    height: 20%;
+}
+
+#stitle{
+    height: 20%;
+}
+
+#stext{
+    height: 30%;
+}
+
+#slittle{
+    height: 20%;
 }
 
 .homePriceLock1{
