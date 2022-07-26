@@ -237,7 +237,7 @@ nav{
     
 }
 .homeTope1{
-    width: 50%;
+    width: 49%;
     background-color: white;
     clip-path: polygon(0% 0%, 100% 0%, 75% 100%, 0% 100%);  
 }
@@ -259,7 +259,7 @@ nav{
 
 .homeTope2{
     float: right;
-    width: 50%;
+    width: 51%;
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
     
 }
@@ -324,10 +324,19 @@ nav{
     height: 150px;
     background-color: white;
 }
+
+.homePriceLock1 p{
+    color: #10497E;
+}
+
 .homePriceLock2{
     width: 100%;
     height: 450px;
     background-color: white;
+    background-image: url(images/lock.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .homePromo1{
     width: 100%;
