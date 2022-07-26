@@ -398,7 +398,7 @@ nav{
     text-align: center;
     color: #FFFFFF;
 }
-.homeAreas2{
+#homeAreas2{
     width: 100%;
     height: 450px;
     background-color: #FFFFFF;
@@ -408,10 +408,10 @@ nav{
     flex-flow: column nowrap;
     justify-content: space-between;
 }
-.homeAreas2 #image1{
+#homeAreas2 #image1{
     content: url("images/urban.png");
 }
-.homeAreas2 #image2{
+#homeAreas2 #image2{
     content: url("images/rural.png");
 }
 .homeAtencion1{
