@@ -511,7 +511,7 @@ nav{
       transform: skew(0);
     }
   }
-  .homeAreas2TextA {
+  .shakyA {
     -webkit-animation-name: hvr-wobble-top;
     animation-name: hvr-wobble-top;
     -webkit-animation-duration: 1.2s;
