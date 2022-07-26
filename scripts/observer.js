@@ -14,7 +14,7 @@ const observer = new IntersectionObserver(entries => {
         }     
     });
   });
-  /*Aqui se elige quienes son los elementos a observar. En este caso, hay dos con el mismo nombre por simplicidad, tomados como un array. De lo contrario, se pudo usar querySelector solamente, el cual retorna el primer elemento con el nombre pedido*/
+  /*Aqui se elige quienes son los elementos a observar. En este caso, se uso un forEach para tomar todos los que existan, tomados como un array. De lo contrario, se pudo usar querySelector solamente, el cual retorna el primer elemento con el nombre pedido*/
   document.querySelectorAll('.shaky').forEach(
     Element => observer.observe(Element));
 
