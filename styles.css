@@ -499,24 +499,14 @@ nav{
       transform: skew(0);
     }
   }
-  #homeAreas2Text {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-transform-origin: 0 100%;
-    transform-origin: 0 100%;
-  }
-  #homeAreas2Text:hover, #homeAreas2Text:focus, #homeAreas2Text:active {
+  .homeAreas2TextA {
     -webkit-animation-name: hvr-wobble-top;
     animation-name: hvr-wobble-top;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
+
   }
 .homeAtencion1{
     width: 100%;
