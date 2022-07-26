@@ -303,19 +303,19 @@ nav{
     color: #FFFFFF;
 }
 
-#sicon{
+.sicon{
     height: 20%;
 }
 
-#stitle{
+.stitle{
     height: 20%;
 }
 
-#stext{
+.stext{
     height: 30%;
 }
 
-#slittle{
+.slittle{
     height: 20%;
 }
 
@@ -329,6 +329,10 @@ nav{
     color: #10497E;
 }
 
+#lockp{
+    height: 30%;
+}
+
 .homePriceLock2{
     width: 100%;
     height: 450px;
@@ -337,7 +341,15 @@ nav{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    
 }
+
+#promoline{
+    width: 100%;
+    height: 5%;
+    background-color: #FFFFFF;
+}
+
 .homePromo1{
     width: 100%;
     height: 150px;
