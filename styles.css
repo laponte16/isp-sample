@@ -285,6 +285,14 @@ nav{
 .switchtime p{
     color: #FFFFFF;
 }
+
+#switchline{
+    width: 0.5vw;
+    height: 350px;
+    display: inline-block;
+    background-color: white;
+}
+
 .switchcost{
     width: 30%;
     height: 450px;
