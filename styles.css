@@ -363,11 +363,21 @@ nav{
 
 .promlist{
     width: 80%;
+    height: 90%;
+}
+.promlist .btn{
+    background-color: #10497E;
+    border: none;
 }
 
 .promop{
+    width: 80%;
+}
+
+.promop2{
     width: 90%;
 }
+
 
 .homeFlex1{
     width: 100%;
