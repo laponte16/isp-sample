@@ -731,50 +731,43 @@ nav{
 /*BOB*/
 @-webkit-keyframes bob {
     0% {
-      -webkit-transform: translateY(-4px);
-      transform: translateY(-4px);
+      -webkit-transform: translateY(-1%);
+      transform: translateY(-1%);
     }
     50% {
-      -webkit-transform: translateY(-2px);
-      transform: translateY(-2px);
+      -webkit-transform: translateY(-0.5%);
+      transform: translateY(-0.5%);
     }
     100% {
-      -webkit-transform: translateY(-4px);
-      transform: translateY(-4px);
+      -webkit-transform: translateY(-1%);
+      transform: translateY(-1%);
     }
   }
   @keyframes bob {
     0% {
-      -webkit-transform: translateY(-4px);
-      transform: translateY(-4px);
+      -webkit-transform: translateY(-1%);
+      transform: translateY(-1%);
     }
     50% {
-      -webkit-transform: translateY(-2px);
-      transform: translateY(-2px);
+      -webkit-transform: translateY(-0.5%);
+      transform: translateY(-0.5%);
     }
     100% {
-      -webkit-transform: translateY(-4px);
-      transform: translateY(-4px);
+      -webkit-transform: translateY(-1%);
+      transform: translateY(-1%);
     }
   }
   @-webkit-keyframes bob-float {
     100% {
-      -webkit-transform: translateY(-4px);
-      transform: translateY(-4px);
+      -webkit-transform: translateY(-1%);
+      transform: translateY(-1%);
     }
   }
   @keyframes bob-float {
     100% {
-      -webkit-transform: translateY(-4px);
-      transform: translateY(-4px);
+      -webkit-transform: translateY(-1%);
+      transform: translateY(-1%);
     }
-  }
-  .bob {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   }
   .bob:hover, .bob:focus, .bob:active {
     -webkit-animation-name: bob-float, bob;
