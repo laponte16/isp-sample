@@ -727,3 +727,61 @@ nav{
     height: 50%;
     background-color: fuchsia;
 }
+/*ANIMACIONES*/
+/*BOB*/
+@-webkit-keyframes bob {
+    0% {
+      -webkit-transform: translateY(-1%);
+      transform: translateY(-1%);
+    }
+    50% {
+      -webkit-transform: translateY(-0.5%);
+      transform: translateY(-0.5%);
+    }
+    100% {
+      -webkit-transform: translateY(-1%);
+      transform: translateY(-1%);
+    }
+  }
+  @keyframes bob {
+    0% {
+      -webkit-transform: translateY(-1%);
+      transform: translateY(-1%);
+    }
+    50% {
+      -webkit-transform: translateY(-0.5%);
+      transform: translateY(-0.5%);
+    }
+    100% {
+      -webkit-transform: translateY(-1%);
+      transform: translateY(-1%);
+    }
+  }
+  @-webkit-keyframes bob-float {
+    100% {
+      -webkit-transform: translateY(-1%);
+      transform: translateY(-1%);
+    }
+  }
+  @keyframes bob-float {
+    100% {
+      -webkit-transform: translateY(-1%);
+      transform: translateY(-1%);
+    }
+  }
+  .bob:hover, .bob:focus, .bob:active {
+    -webkit-animation-name: bob-float, bob;
+    animation-name: bob-float, bob;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+  }
