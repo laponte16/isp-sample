@@ -362,16 +362,25 @@ nav{
 }
 
 .promlist{
-    width: 80%;
-    height: 90%;
+    width: 90%;
+    height: 100%;
 }
 .promlist .btn{
     background-color: #10497E;
     border: none;
 }
 
+.promlist2{
+    width: 90%;
+    height: 100%;
+}
+.promlist2 .btn{
+    background-color: #10497E;
+    border: none;
+}
+
 .promop{
-    width: 80%;
+    width: 90%;
 }
 
 .promop2{
