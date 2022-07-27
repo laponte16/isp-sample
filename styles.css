@@ -9,7 +9,7 @@ body{
 .mainDiv{
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 0%;
     margin-top: 0%;
     margin-left: 0.850%;
