@@ -228,6 +228,22 @@ nav{
     text-align: right;
 }
 
+.slide1{
+    width: 100%;
+    background-image: url(images/slider1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.slide2{
+    width: 100%;
+    background-image: url(images/slider2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 /*ESTILOS DEL HOME*/
 .homeTope{
     display: flex;
@@ -425,9 +441,30 @@ nav{
 }
 .homeFlex2{
     width: 100%;
-    height: 450px;
+    height: 550px;
     background-color: white;
 }
+
+.flexing{
+    width: 48%;
+    background-image: url(images/flex1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-width: 0.5vw;
+    border-color: #476CFF;
+}
+
+.flexing2{
+    width: 48%;
+    background-image: url(images/flex2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-width: 0.5vw;
+    border-color: #476CFF;
+}
+
 /*ESTILOS DE SERVICE-HOME*/
 .homeTitulo1{
     width: 100%;
