@@ -365,10 +365,49 @@ nav{
     width: 90%;
     height: 100%;
 }
+
 .promlist .btn{
+    border: #10497E;
     background-color: #10497E;
-    border: none;
 }
+
+@-webkit-keyframes pulse {
+    50% {
+      background-color: #10497E;
+    }
+  }
+  @keyframes pulse {
+    50% {
+      background-color: #10497E;
+    }
+  }
+  .pulse {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: background-color;
+    transition-property: background-color;
+  }
+  .pulse:hover, .pulse:focus, .pulse:active {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-color: #476CFF;
+    background-color: #476CFF;
+    color: white;
+  }
 
 .promop{
     width: 90%;
