@@ -713,41 +713,11 @@ nav{
     background-color: darkkhaki;
 }
 /*ESTILOS DEL ABOUT*/
-@-webkit-keyframes appear {
-    0% {
-      -webkit-transform: translateX(-150%);
-      transform: translateX(-150%);
-    }
-    50% {
-      -webkit-transform: translateX(-100%);
-      transform: translateX(-100%);
-    }
-    100% {
-      -webkit-transform: translateX(100%);
-      transform: translateX(100%);
-    }
-  }
 .aboutTitulo{
     width: 90%;
     height: 100px;
 
-    margin-left: -200%;
-
     background-color: #22BFAC;
-}
-.appear{
-    -webkit-animation-name: appear;
-    animation-name: appear;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-delay: .0s;
-    animation-delay: .0s;
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
 }
 .aboutQuienes{
     width: 90%;
@@ -880,8 +850,52 @@ nav{
   .bob-side{
     -webkit-animation-name: bob-side;
     animation-name: bob-side;
-    -webkit-animation-duration: 2.5s;
-    animation-duration: 2.5s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-delay: .0s;
+    animation-delay: .0s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+  }
+  @-webkit-keyframes bob-side2 {
+    0% {
+      -webkit-transform: translateX(+1%);
+      transform: translateX(+1%);
+    }
+    50% {
+      -webkit-transform: translateX(+0.5%);
+      transform: translateX(+0.5%);
+    }
+    100% {
+      -webkit-transform: translateX(+1%);
+      transform: translateX(+1%);
+    }
+}
+  @keyframes bob-side2 {
+    0% {
+      -webkit-transform: translateX(+1%);
+      transform: translateX(+1%);
+    }
+    50% {
+      -webkit-transform: translateX(+0.5%);
+      transform: translateX(+0.5%);
+    }
+    100% {
+      -webkit-transform: translateX(+1%);
+      transform: translateX(+1%);
+    }
+}
+  .bob-side2{
+    -webkit-animation-name: bob-side2;
+    animation-name: bob-side2;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
     -webkit-animation-delay: .0s;
     animation-delay: .0s;
     -webkit-animation-timing-function: ease-in-out;
