@@ -7,6 +7,7 @@
     <title>About</title>
 
     <link rel="stylesheet" type="text/css" href="../../styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <div class="mainDiv">
@@ -14,14 +15,14 @@
             <?php include "../nav/nav-en2.html"; ?>
         </div>
 
-        <div class="content">
-            <div class="aboutTitulo">
-                Titulo
+        <div class="content text-center flex flex-column items-center text-white">
+            <div class="aboutTitulo rounded-full mb-4 about appear">
+                <p class="text-3xl pt-4">About Us</p>
             </div>
-            <div class="aboutQuienes">
+            <div class="aboutQuienes rounded-full mb-4 about">
                 texto de quienes somos
             </div>
-            <div  class="aboutImagen">
+            <div  class="aboutImagen mb-4 about">
                 <div  class="aboutImagen1">
                     imagen 1
                 </div>
@@ -29,12 +30,9 @@
                     imagen 2
                 </div> 
             </div>
-            <div  class="aboutDonde">
-                <div  class="aboutDonde1">
+            <div  class="aboutDonde mb-4 about">
+                <div  class="aboutDonde1 rounded-full">
                     Donde encontrarnos por Thunderbit
-                </div>
-                <div  class="aboutDonde2">
-                    Donde encontrarnos personalmente
                 </div>
             </div>
         </div>
@@ -43,5 +41,6 @@
             <?php include "../footer/footer-en2.html"; ?>
         </div>
     </div>
+    <script type="text/javascript" src="../../scripts/observer.js"></script>
 </body>
 </html>
