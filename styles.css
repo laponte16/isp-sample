@@ -728,8 +728,14 @@ nav{
     width: 90%;
     height: 200px;
 
-    background-color: #476CFF;
+    background-color: #10497E;
 }
+
+.aboutText{
+  padding: 5vw;
+}
+
+
 .aboutImagen{
     width: 90%;
     height: 200px;
@@ -763,8 +769,24 @@ nav{
 .aboutDonde1{
     width: 100%;
     height: 100%;
-    background-color: #10497E;
+    background-color: #476CFF;
 }
+
+.dondediv{
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+.aboutDonde1 a{
+  padding-top: 2vw;
+  width: 20%;
+}
+
+.aboutDonde1 img{
+  width: 8vw;
+}
+
 /*ANIMACIONES*/
 /*BOB*/
 @-webkit-keyframes bob {
