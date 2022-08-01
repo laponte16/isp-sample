@@ -216,8 +216,9 @@ nav{
   margin-top: 25vh;
   background-color: #22BFAC;
 
-  border-color: #476CFF;
-  border: 4px;
+}
+.loginOut{
+  background-color: #10497E;
 }
 /*SLIDER*/
 .carousel-item{
