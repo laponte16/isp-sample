@@ -756,11 +756,19 @@ nav{
 .aboutImagen1{
     width: 50%;
     height: 100%;
+    background-image: url(images/about1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background-color: crimson;
 }
 .aboutImagen2{
     width: 50%;
     height: 100%;
+    background-image: url(images/about2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background-color: darkslateblue;
 }
 .aboutDonde{
