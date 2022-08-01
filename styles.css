@@ -794,6 +794,7 @@ nav{
 }
 
 .aboutDonde1 a{
+  text-decoration: none;
   padding-top: 2vw;
   width: 20%;
 }
