@@ -229,6 +229,10 @@ nav{
     padding-bottom: 50px;
     text-align: right;
 }
+.container-slide .btn{
+  border: #476CFF;
+  background-color: #476CFF;
+}
 
 .slide1{
     width: 100%;
