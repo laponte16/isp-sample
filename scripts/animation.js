@@ -11,13 +11,17 @@ function start()
 
 function clickSignIn(){
     if(state == 0){
+        $(".signIn").css({"-transform":"translateY(-170px)"});
         $(".signIn").css({"-webkit-transform":"translateY(-170px)"});
-        $(".signIn").css('transition-duration','1s');
+        $(".signIn").css("transition-duration","1s");
+        $(".signIn").css("-webkit-transition-duration","1s");
         state = 1;
     }
     else{
-        $(".signIn").css({"-webkit-transform":"translateY(0px)"});
-        $(".signIn").css('transition-duration','1s');
+        $(".signIn").css({"-webkit-transform":"translateY(40px)"});
+        $(".signIn").css({"transform":"translateY(40px)"});
+        $(".signIn").css("-webkit-transition-duration","1s");
+        $(".signIn").css("transition-duration","1s");
         state = 0;
     }
 }

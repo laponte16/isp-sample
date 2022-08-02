@@ -219,6 +219,9 @@ nav{
   overflow: hidden;
   background-color: #22BFAC;
 
+  display: flex;
+  flex-flow: column nowrap;
+
 }
 .loginOutside{
   background: linear-gradient(90deg, #C7C5F4, #51c6b8);
@@ -226,7 +229,7 @@ nav{
 .login{
   position: relative;
 	width:100%;
-	height: 100%;
+	height: 350px;
 }
 .signIn{
   height: 460px;
