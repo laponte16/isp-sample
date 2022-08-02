@@ -212,7 +212,7 @@ nav{
     flex: 1 1 auto;
 }
 /*ESTILOS DEL LOGIN*/
-.content{
+.contentLogin{
   width: 300px;
 	height: 350px;
   margin-top: 10vh;
