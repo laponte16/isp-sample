@@ -28,7 +28,24 @@
             <a href="../about/">About</a>
         </div>
         <div class="navMid3">
-            <a href="../login" class="text-white no-underline"><i class="fa-solid fa-right-to-bracket"></i>Login</a>
+            <?php
+                session_start();
+
+                if (!isset($_SESSION['user'])) 
+                { 
+                    ?> 
+                    <a href="../login" class="text-white no-underline"><i class="fa-solid fa-right-to-bracket"></i>Login</a>
+                    <?php 
+                }
+                else
+                {
+                    ?> 
+                    <a href="../users-page" class="text-white no-underline">Users |&nbsp</a>
+                    <a href="../back-end/logout.php" class="text-white no-underline">Logout</a>
+                    <?php
+                    
+                }
+            ?>
         </div>
     </div>
     <div class="navBot">

@@ -21,16 +21,55 @@
             <div class="usersTitle mb-3">
                 <p class="text-5xl pt-4 text-white items-center">Users Registered</p>
             </div>
-            <div class="Userstable flex flex-row items-center pt-4">
-                <div class="Usernum flex flex-column justify-center items-center">
-                    <p class="tabletitle text-2xl">#</p>
+            <div class="Userstable flex flex-col items-center pt-4">
+                <!--ENCABEZADO DE LA TABLA-->
+                <div class="Userstable flex flex-row justify-center">
+                    <div class="Usernum flex flex-column justify-center items-center">
+                        <p class="tabletitle text-2xl">#</p>
+                    </div>
+                    <div class="Usercol flex flex-column justify-center items-center">
+                        <p class="tabletitle text-2xl ">Username</p>
+                    </div>
+                    <div class="Userpass flex flex-column justify-center items-center">
+                        <p class="tabletitle text-2xl ">Password</p>
+                    </div>
                 </div>
-                <div class="Usercol flex flex-column justify-center items-center">
-                    <p class="tabletitle text-2xl ">Username</p>
+                <!--ITERACION DE CADA USUARIO-->
+                <div class="Userstable flex flex-row justify-center">
+                    <?php
+                    include "../back-end/conexion.php";
+                    $sql = "select * from users";
+                    ?>
+                    <div class="Usernum flex flex-column justify-center items-center">
+                        <?php
+                        $query = mysqli_query($link,$sql); 
+                        while($row = mysqli_fetch_array($query)){
+                            echo $row['id'];
+                            ?><br><?php    
+                        }
+                        ?>
+                    </div>
+                    <div class="Usercol flex flex-column justify-center items-center">
+                        <?php
+                        $query = mysqli_query($link,$sql);
+                        while($row = mysqli_fetch_array($query)){
+                           echo $row['user'];
+                           ?><br><?php
+                        }
+                        ?>
+                    </div>
+                    <div class="Userpass flex flex-column justify-center items-center">
+                        <?php
+                        $query = mysqli_query($link,$sql);
+                        while($row = mysqli_fetch_array($query)){
+                            $pass = $row['password'];
+                            echo md5($pass);
+                            ?><br><?php
+                        }
+                        ?>
+                    </div>
                 </div>
-                <div class="Userpass flex flex-column justify-center items-center">
-                    <p class="tabletitle text-2xl ">Password</p>
-                </div>
+                
             </div>
 
         </div>
