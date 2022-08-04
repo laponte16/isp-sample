@@ -1,5 +1,12 @@
 <?php 
-	$link = mysqli_connect("ec2-107-22-122-106.compute-1.amazonaws.com","blmpcpjcxstyva","7a715b95d910d73e924e34f4074ee9d0583d6f6416f1a296e01d933999162f15","d7h894o3lgdppj");
+
+    $host = "54.215.148.52";	
+    $user = "sql3510867";
+    $password = "uAd5kvlkUs";
+    $database = "sql3510867";
+    $port = "3306";
+
+	$link = mysqli_connect($host,$user,$password,$database,$port);
 	if (!$link) 
     {
     die("Connection failed: " . mysqli_connect_error());
