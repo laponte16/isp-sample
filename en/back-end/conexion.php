@@ -1,6 +1,6 @@
 <?php 
 
-    $host = "sql212.epizy.com";	
+    $host = "192.168.0.182";	
     $user = "epiz_32148024";
     $password = "Dsympt03RcmH";
     $database = "epiz_32148024_isp_sample";
