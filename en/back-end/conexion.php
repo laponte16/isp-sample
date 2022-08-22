@@ -1,9 +1,9 @@
 <?php 
 
-    $host = "54.215.148.52";	
-    $user = "sql3510867";
-    $password = "uAd5kvlkUs";
-    $database = "sql3510867";
+    $host = "sql212.epizy.com";	
+    $user = "epiz_32148024";
+    $password = "";
+    $database = "epiz_32148024_isp_sample";
     $port = "3306";
 
 	$link = mysqli_connect($host,$user,$password,$database,$port);
