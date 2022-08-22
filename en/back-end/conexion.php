@@ -2,7 +2,7 @@
 
     $host = "sql212.epizy.com";	
     $user = "epiz_32148024";
-    $password = "";
+    $password = "Dsympt03RcmH";
     $database = "epiz_32148024_isp_sample";
     $port = "3306";
 
